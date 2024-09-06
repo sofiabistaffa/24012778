@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main (){
+    char nome [50];
+
+    printf("Olá eu sou a Sofia, como é seu nome?\n");
+    scanf("%s", nome);
+
+    printf("Bem vindo ao clube, %s\n", nome);
+
+    return 0;
+
+
+
+}
